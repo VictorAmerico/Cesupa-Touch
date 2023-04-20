@@ -1,0 +1,105 @@
+/* HOME */
+.menu-item{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(19, 2, 170);
+    position: absolute;
+    float: left;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu-item:hover{
+    cursor: pointer;
+}
+
+.menu-item a{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-item i{
+    font-size: 58px;
+    margin-top: 40px;
+    display: block;
+}
+
+.menu-item p {
+    margin-top: 10px;
+    display: block;
+}
+
+.menu-item img{
+    width: 45%;
+    margin-top: -12px;
+}
+
+@media (max-width: 768px) {
+    /* regras de estilo para telas menores que 768px de largura */
+  }
+  
+.center-align{
+    margin-top: 20%;
+}
+
+.ajustment{
+    margin-top: 30%;
+}
+
+
+.b{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.cesupa-footer img{
+    width: 12%;
+    margin-left: 80%;
+    margin-top: 80vh;
+}
+
+/* MAPA */
+
+.menu-item-map{
+    width: 250px;
+    height: 70px;
+    background-color: rgb(19, 2, 170);
+    position: absolute;
+    float: left;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.menu-item-map a{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-item-map p {
+    margin-top: -25px;
+    display: block;
+}
+
+/* Table */
+
+.dark-blue{
+    background-color: rgb(43, 24, 213);
+    color: #fff;
+}
+
+.bg-cab{
+    background-color:rgb(0, 0, 0);
+    color: #fff;
+}
